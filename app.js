@@ -33,5 +33,5 @@ app.use('/tristan', apiTristanRoutes);  // Utilisez le routeur API pour les rout
 app.use('/random', apiRandomRoutes);  // Utilisez le routeur API pour les routes API
 app.use('/json', json);  // Utilisez le routeur API pour les routes API
 
-cron.schedule('0 */1 * * *', fetchAndUpdateData);
+//cron.schedule('0 */1 * * *', fetchAndUpdateData);
 //cron.schedule('*/30 * * * * *', fetchAndUpdateBattleLog);
